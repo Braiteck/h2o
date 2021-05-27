@@ -541,18 +541,33 @@
 
 
 
-    .team .item {
+    .team .item
+    {
         margin-top: 70px;
     }
 
-    .team .item .foto {
+    .team .item .foto
+    {
         width: 140px;
         height: 140px;
         margin: -70px auto 0;
     }
 
-    .team .item .name{
+    .team .item .name
+    {
         font-size: 15px;
+    }
+
+
+
+    .map_block .cities
+    {
+        margin-top: 24px;
+    }
+
+    .map_block .cities > *
+    {
+        width: calc(50% - 20px);
     }
 
 

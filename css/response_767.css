@@ -1063,14 +1063,49 @@
         width: calc(50% - 20px);
     }
 
-    .team .item {
+    .team .item
+    {
         margin-top: 83px;
     }
 
-    .team .item .foto {
+    .team .item .foto
+    {
         width: 166px;
         height: 166px;
         margin: -83px auto 0;
+    }
+
+
+
+    .tabs button
+    {
+        width: 50%;
+
+        border-top: 1px solid #49a7dc;
+        border-left: 1px solid #49a7dc;
+    }
+
+    .tabs button:nth-child(1),
+    .tabs button:nth-child(2)
+    {
+        border-top: none;
+    }
+
+    .tabs button:nth-child(2n+1)
+    {
+        border-left: none;
+    }
+
+
+
+    .map_block .cities
+    {
+        font-size: 13px;
+    }
+
+    .map_block .cities > *
+    {
+        width: calc(33.333% - 20px);
     }
 
 

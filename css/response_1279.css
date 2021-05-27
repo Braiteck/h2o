@@ -470,6 +470,30 @@
 
 
 
+    .tabs button
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        min-height: 50px;
+        padding: 12px 40px;
+    }
+
+
+
+    .map_block .map
+    {
+        max-width: calc(50% - 70px);
+    }
+
+    .map_block .cities
+    {
+        width: calc(50% + 40px);
+        padding: 0;
+    }
+
+
+
     /*---------------
         Footer
     ---------------*/
